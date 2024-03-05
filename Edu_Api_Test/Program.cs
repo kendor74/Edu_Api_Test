@@ -122,14 +122,14 @@ using (var scope = app.Services.CreateScope())
         var user = new User
         {
             Email = Email,
-            FirstName = "Test",
-            LastName = "test",
+            FirstName = "Mohamed",
+            LastName = "Abd Allateaf",
             UserName = "Ken#1",
             City = "Cairo",
             Gender = "Male",
             ImagePath = "MaleIcon.png",
             PhoneNumber = "01234567891",
-            Age = 35
+            Age = 22
         };
 
         await _userManager.CreateAsync(user, Password);

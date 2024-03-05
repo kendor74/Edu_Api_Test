@@ -14,7 +14,7 @@
 
         public UserServices(UserManager<User> userManager, IConfiguration config
             , SignInManager<User> signInManager
-            , ApplicationDbContext studentRepository)
+            , ApplicationDbContext studentRepository, IdentityUserDbContext identityUserDbContext)
         {
             _userManager = userManager;
             _config = config;
